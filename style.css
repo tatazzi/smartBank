@@ -6,30 +6,38 @@ body {
 header {
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
+	flex: 1;
 }
 .container {
 	display: flex;
-	justify-content: space-between;
 	flex: 1;
+	justify-content: space-between;
 }
 .menu {
 	display: flex;
 	align-items: center;
+	flex: 1;
+	padding-left: 142px;
+	background-color: #00f;
 }
 .beniskLogo {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	flex: 1;
+	background-color: #0ff;
 }
 
 .bag {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 98px;
 	width: 50px;
 	height: 50px;
 	border: 1.4px solid #dfdfdf;
 	border-radius: 50%;
+	margin: 27px;
 }
 .bag:hover {
 	border: 1.4px solid #404041;
@@ -50,4 +58,62 @@ nav a {
 }
 nav a:hover {
 	color: #000;
+}
+.overview {
+	display: flex;
+	flex: 1;
+}
+.textOverview {
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	padding: 45px;
+	background-color: #0f0;
+}
+.textOverview h1 {
+	font-family: "Bai Jamjuree";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 80px;
+	letter-spacing: -0.01em;
+	color: #222223;
+}
+.textOverview h4 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.01em;
+	color: #535354;
+}
+.submitContainer {
+	display: flex;
+	align-items: center;
+}
+.buttonSubmit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	background-color: #222223;
+}
+.submitContainer h5 {
+	display: flex;
+	align-items: center;
+	padding-left: 18px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 19px;
+	color: #222223;
+}
+.card {
+	display: flex;
+	flex: 2;
+	padding: 45px;
+	background-color: #f00;
 }
