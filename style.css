@@ -1,74 +1,53 @@
-body{
-  background-color:#F8FCFF;
+body {
+	background-color: #e5e5e5;
+	margin: 0;
+	padding: 0;
 }
-header{
-	position: absolute;
-	width: 1361px;
-	height: 783px;
-	left: -17px;
-	top: 40px;
-
-}
-a {
-	font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
-  letter-spacing: 0.01em;
-	color: #404041
-}
-.about{
-  position: absolute;
-  width: 47px;
-  height: 20px;
-  left: 142px;
-  top: 55px;
-}
-
-.howItWorks{
-	position: absolute;
-	width: 101px;
-	height: 20px;
-	left: 233px;
-	top: 55px;
-	white-space: nowrap
-}
-.contact{
-	position: absolute;
-	width: 64px;
-	height: 20px;
-	left: 379px;
-	top: 55px;	
-}
-.benisk{
-	position: absolute;
-	width: 83px;
-	height: 15px;
-	left: 744px;
-	top: 58px;
-	background: #17181A;
-}
-.bag {
-	position: absolute;
-	width: 50px;
-	height: 50px;	
-	left: 1292px;
+header {
 	display: flex;
-    justify-content: center;
-    align-items: center;
-	top: 40px;
-	border: 1.4px solid #DFDFDF;
-	box-sizing: border-box;
+	justify-content: center;
+	margin-top: 40px;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+}
+.menu {
+	display: flex;
+	align-items: center;
+}
+.beniskLogo {
+	display: flex;
+	align-items: center;
+}
+
+.bag {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border: 1.4px solid #dfdfdf;
 	border-radius: 50%;
 }
 .bag:hover {
-	border: 1.4px solid #404041 ;
-	cursor: pointer;
-  }
-
-.icon{
-object-fit: contain;
-width: 16px;
-height: 16px;
+	border: 1.4px solid #404041;
+}
+nav {
+	display: flex;
+}
+nav a {
+	display: block;
+	padding: 45px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #404041;
+}
+nav a:hover {
+	color: #000;
 }
